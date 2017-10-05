@@ -5,6 +5,8 @@
  */
 package helloworld;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author a1620517
@@ -16,7 +18,7 @@ public class Helloworld {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Olá mundo :D");
+        JOptionPane.showMessageDialog(null, "Olá mundo :D");
     }
     
 }
